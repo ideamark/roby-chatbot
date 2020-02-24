@@ -1,0 +1,8 @@
+how are you
+fine
+what's the time
+what's your name
+how old are you
+chinese mode
+write serial port
+exit

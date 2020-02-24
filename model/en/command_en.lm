@@ -1,0 +1,84 @@
+Language model created by QuickLM on Tue Oct 28 01:32:02 EDT 2014
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 18 words
+
+\data\
+ngram 1=18
+ngram 2=24
+ngram 3=19
+
+\1-grams:
+-0.9542 </s> -0.3010
+-0.9542 <s> -0.2499
+-1.5563 ARE -0.2888
+-1.8573 CHINESE -0.2950
+-1.8573 EXIT -0.2499
+-1.8573 FINE -0.2499
+-1.5563 HOW -0.2825
+-1.8573 MODE -0.2499
+-1.8573 NAME -0.2499
+-1.8573 OLD -0.2888
+-1.8573 PORT -0.2499
+-1.8573 SERIAL -0.2950
+-1.8573 THE -0.2950
+-1.8573 TIME -0.2499
+-1.5563 WHAT'S -0.2888
+-1.8573 WRITE -0.2950
+-1.5563 YOU -0.2499
+-1.8573 YOUR -0.2950
+
+\2-grams:
+-1.2041 <s> CHINESE 0.0000
+-1.2041 <s> EXIT 0.0000
+-1.2041 <s> FINE 0.0000
+-0.9031 <s> HOW 0.0000
+-0.9031 <s> WHAT'S 0.0000
+-1.2041 <s> WRITE 0.0000
+-0.3010 ARE YOU 0.0000
+-0.3010 CHINESE MODE 0.0000
+-0.3010 EXIT </s> -0.3010
+-0.3010 FINE </s> -0.3010
+-0.6021 HOW ARE 0.0000
+-0.6021 HOW OLD 0.0000
+-0.3010 MODE </s> -0.3010
+-0.3010 NAME </s> -0.3010
+-0.3010 OLD ARE 0.0000
+-0.3010 PORT </s> -0.3010
+-0.3010 SERIAL PORT 0.0000
+-0.3010 THE TIME 0.0000
+-0.3010 TIME </s> -0.3010
+-0.6021 WHAT'S THE 0.0000
+-0.6021 WHAT'S YOUR 0.0000
+-0.3010 WRITE SERIAL 0.0000
+-0.3010 YOU </s> -0.3010
+-0.3010 YOUR NAME 0.0000
+
+\3-grams:
+-0.3010 <s> CHINESE MODE
+-0.3010 <s> EXIT </s>
+-0.3010 <s> FINE </s>
+-0.6021 <s> HOW ARE
+-0.6021 <s> HOW OLD
+-0.6021 <s> WHAT'S THE
+-0.6021 <s> WHAT'S YOUR
+-0.3010 <s> WRITE SERIAL
+-0.3010 ARE YOU </s>
+-0.3010 CHINESE MODE </s>
+-0.3010 HOW ARE YOU
+-0.3010 HOW OLD ARE
+-0.3010 OLD ARE YOU
+-0.3010 SERIAL PORT </s>
+-0.3010 THE TIME </s>
+-0.3010 WHAT'S THE TIME
+-0.3010 WHAT'S YOUR NAME
+-0.3010 WRITE SERIAL PORT
+-0.3010 YOUR NAME </s>
+
+\end\
